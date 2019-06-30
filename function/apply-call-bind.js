@@ -15,6 +15,6 @@ var foo = {
   }
 };
 
-console.log(foo.getX.call(obj));
-console.log(foo.getX.apply(obj));
-console.log(foo.getX.bind(obj)());
+console.log(foo.getX.call(obj)); // 80
+console.log(foo.getX.apply(obj));  // 80
+console.log(foo.getX.bind(obj)());   // 80
